@@ -42,3 +42,10 @@ Implementar uma solução **serverless** capaz de executar tarefas automatizadas
 ---
 
 ## 🛠 Estrutura do Repositório
+
+---
+
+## ✨ Autor
+Desenvolvido como parte de um estudo sobre **automação de tarefas na AWS** e **boas práticas de Cloud Computing**.  
+Este repositório serve como material de apoio para futuras implementações e experimentos serverless.
+
