@@ -1,0 +1,15 @@
+name: Validate and Deploy Lambda
+on: [push, pull_request]
+jobs:
+  validate-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate CloudFormation
+        run: |
+          pip install cfn-lint
+          cfn-lint templates/**/*.yaml
+      - name: Lint Python
+        run: |
+          pip install flake8
+          flake8 src/

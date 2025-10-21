@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Lambda acionada por eventos de upload no S3.'
+Parameters:
+  BucketName:
+    Type: String
+Resources:
+  LambdaFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Handler: handler.lambda_handler
+      Role: arn:aws:iam::123456789012:role/lambda-role
+      Code:
+        ZipFile: |
+          def lambda_handler(event, context):
+              print('Evento recebido:', event)
+      Runtime: python3.12
+      Timeout: 60
