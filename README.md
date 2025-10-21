@@ -1,5 +1,4 @@
-# aws-lambda-s3-automated-tasks
-Explore a automação de tarefas serverless utilizando AWS Lambda e Amazon S3, aplicando conceitos de arquitetura orientada a eventos (EDA) para processamento automático e escalável. O projeto inclui templates, scripts e boas práticas para implementação, monitoramento e segurança de funções Lambda integradas ao S3.
+
 # 🚀 AWS Lambda + S3 — Automação de Tarefas Serverless
 
 Este projeto demonstra como automatizar tarefas na nuvem utilizando **AWS Lambda** em conjunto com o **Amazon S3**, aplicando os conceitos de **Infraestrutura como Código (IaC)** e **arquitetura orientada a eventos (EDA)**.  
